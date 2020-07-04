@@ -21,9 +21,23 @@ macOS Catalina v15.15.5
 
 EFI configured with the vanilla-opencore tutorial : https://dortania.github.io/OpenCore-Desktop-Guide/
 
-Using the **MacPro7.1** smBios.
+The information in config.plist/platormInfo/Generic has been deleted. Please generate new ones with GenSMBIOS (https://github.com/corpnewt/GenSMBIOS), with the SMBIOS *MacPro7.1*
 
 ACPI/SSDT-EC_USBX built manually following the "Getting started with ACPI" tutorial : https://dortania.github.io/Getting-Started-With-ACPI/
+
+## BIOS settings
+
+Access the bios by pressing the F2 key on computer startup.
+
+Boot/Fast Boot -> Disabled
+
+Boot/CSM Support -> Disabled
+
+Boot/Secure Boot/Secure Boot -> Disabled
+
+Settings/IO Ports/Above 4G Decoding -> Enabled
+
+Settings/IO Ports/USB Configuration/XHCI Hand-off -> Enabled
 
 ## Kext
 
