@@ -71,4 +71,4 @@ CPU Management:
 * **AMD Power Gadget:** (https://github.com/trulyspinach/SMCAMDProcessor) -> Monitoring CPU
 * **Liquidctl:** (https://github.com/jonasmalacofilho/liquidctl/releases) -> Fan settings (light and speed)
 * **MonitorControl:** (https://github.com/MonitorControl/MonitorControl) -> Monitor brightness and contrast control
-* **iCue:** (https://www.corsair.com/us/en/icue-mac) -> Monitoring and ram settings (light)
+* **ProperTree:** (https://github.com/corpnewt/ProperTree) -> .plist reader
