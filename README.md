@@ -1,5 +1,5 @@
-# ryzen-hackintosh
-Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX)
+# ryzen-hackintosh (opencore)
+Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.5.9
 
 ## The Build
 
@@ -11,8 +11,17 @@ Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX)
 * **Storage (Windows):** Sabrent Rocket PCIe M.2 2280 SSD 1TB + Crusial MX500 1TB SSD
 * **Video Card:** Sapphire Radeon RX 5700 XT Nitro+ SE
 * **Power Supply:** SeaSonic GX-1000
+* **Wifi-bluetooth card:** Fenvi FV-T919
 * **Case:** NZXT H510 Elite
 * **Monitor:** BenQ EX3501R (21/9)
+
+## Information
+
+EFI configured with the vanilla-opencore tutorial : https://dortania.github.io/OpenCore-Desktop-Guide/
+
+Using the **MacPro7.1** smBios.
+
+ACPI/SSDT-EC_USBX built manually following the "Getting started with ACPI" tutorial : https://dortania.github.io/Getting-Started-With-ACPI/
 
 ## Kext
 
@@ -28,3 +37,22 @@ CPU Management:
 
 * [AMDRyzenCPUPowerManagement.kext](https://github.com/trulyspinach/SMCAMDProcessor/releases) (v0.6.4)
 * [SMCAMDProcessor.kext](https://github.com/trulyspinach/SMCAMDProcessor/releases) (v0.6.4)
+
+## What works?
+
+* Very stable
+* Audio (Audio codec : ALC1220-VB)
+* iMessage
+
+* If the characters are displayed strangely on the screen, uncheck the option *Allow extended dynamic range* in system settings / monitor.
+
+## What's not working yet?
+
+* Sleep (kernel panic) -> Possible solution: add a custom SSDT USB mapping in /ACPI
+
+## Usefull tools
+
+* **AMD Power Gadget:** (https://github.com/trulyspinach/SMCAMDProcessor) -> Monitoring CPU
+* **Liquidctl:** (https://github.com/jonasmalacofilho/liquidctl/releases) -> Fan settings (light and speed)
+* **MonitorControl:** (https://github.com/MonitorControl/MonitorControl) -> Monitor brightness and contrast control
+* **iCue:** (https://www.corsair.com/us/en/icue-mac) -> Monitoring and ram settings (light)
