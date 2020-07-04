@@ -72,3 +72,7 @@ CPU Management:
 * **Liquidctl:** (https://github.com/jonasmalacofilho/liquidctl/releases) -> Fan settings (light and speed)
 * **MonitorControl:** (https://github.com/MonitorControl/MonitorControl) -> Monitor brightness and contrast control
 * **ProperTree:** (https://github.com/corpnewt/ProperTree) -> .plist reader
+
+## Fix Adobe products crashes
+
+https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd
