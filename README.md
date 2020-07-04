@@ -11,11 +11,13 @@ Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.5.9
 * **Storage (Windows):** Sabrent Rocket PCIe M.2 2280 SSD 1TB + Crusial MX500 1TB SSD
 * **Video Card:** Sapphire Radeon RX 5700 XT Nitro+ SE
 * **Power Supply:** SeaSonic GX-1000
-* **Wifi-bluetooth card:** Fenvi FV-T919
+* **Wifi-bluetooth card:** Fenvi FV-T919 (native support)
 * **Case:** NZXT H510 Elite
 * **Monitor:** BenQ EX3501R (21/9)
 
 ## Information
+
+macOS Catalina v15.15.5
 
 EFI configured with the vanilla-opencore tutorial : https://dortania.github.io/OpenCore-Desktop-Guide/
 
