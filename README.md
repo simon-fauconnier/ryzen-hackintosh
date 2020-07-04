@@ -59,6 +59,8 @@ CPU Management:
 * Very stable
 * Audio (Audio codec : ALC1220-VB)
 * iMessage
+* HandOff, continuity
+* AirDrop
 
 * If the characters are displayed strangely on the screen, uncheck the option *Allow extended dynamic range* in system settings / monitor.
 
