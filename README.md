@@ -17,7 +17,7 @@ Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.5.9
 
 ## Information
 
-macOS Catalina v15.15.5
+macOS Catalina v15.15.6
 
 EFI configured with the vanilla-opencore tutorial : https://dortania.github.io/OpenCore-Desktop-Guide/
 
