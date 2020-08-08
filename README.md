@@ -27,7 +27,7 @@ ACPI/SSDT-EC_USBX built manually following the "Getting started with ACPI" tutor
 
 ## BIOS settings
 
-/!\ Does not start with the latest version of the motherboard bios /!\
+/!\ Does not boot with the latest version of the motherboard bios /!\
 
 Access the bios by pressing the F2 key on computer startup.
 
