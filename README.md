@@ -19,13 +19,15 @@ Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.5.9
 
 macOS Catalina v10.15.6
 
-EFI configured with the vanilla-opencore tutorial : https://dortania.github.io/OpenCore-Desktop-Guide/
+EFI configured with the vanilla-opencore tutorial : https://dortania.github.io/OpenCore-Install-Guide/
 
 The information in config.plist/platormInfo/Generic has been deleted. Please generate new ones with GenSMBIOS (https://github.com/corpnewt/GenSMBIOS), with the SMBIOS *MacPro7.1*
 
 ACPI/SSDT-EC_USBX built manually following the "Getting started with ACPI" tutorial : https://dortania.github.io/Getting-Started-With-ACPI/
 
 ## BIOS settings
+
+/!\ Does not start with the latest version of the motherboard bios /!\
 
 Access the bios by pressing the F2 key on computer startup.
 
