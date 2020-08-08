@@ -63,6 +63,7 @@ CPU Management:
 * iMessage
 * HandOff, continuity
 * AirDrop
+* Time Machine
 
 * If the characters are displayed strangely on the screen, uncheck the option *Allow extended dynamic range* in system settings / monitor.
 
