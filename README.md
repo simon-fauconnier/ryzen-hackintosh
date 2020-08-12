@@ -65,11 +65,18 @@ CPU Management:
 * AirDrop
 * Time Machine
 
+* Sleep !
+
 * If the characters are displayed strangely on the screen, uncheck the option *Allow extended dynamic range* in system settings / monitor.
 
 ## What's not working yet?
 
-* Sleep (kernel panic) -> Possible solution: add a custom SSDT USB mapping in /ACPI
+* Nothing
+
+## USB Mapping
+
+I did a custom USB mapping for the "Aorus x570 Pro (ATX)" motherboard, all ports are mapped except USB-C. 
+This kext must be used with MacPro7.1 smbios.
 
 ## Usefull tools
 
