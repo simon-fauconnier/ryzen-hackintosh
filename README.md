@@ -73,6 +73,8 @@ CPU Management:
 
 * Nothing
 
+--> /!\ Corsair's ICUE software may prevent the machine from waking up after going into sleep mode.
+
 ## USB Mapping
 
 I did a custom USB mapping for the "Aorus x570 Pro (ATX)" motherboard, all ports are mapped except USB-C. 
