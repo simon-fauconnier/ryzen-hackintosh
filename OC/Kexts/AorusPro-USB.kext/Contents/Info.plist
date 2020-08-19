@@ -77,7 +77,7 @@
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
 			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/BXBR@1,2/IOPP/BYUP@0/IOPP/BYD8@8/IOPP/XHC1@0,1/XHC1@20000000</string>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP13@8,1/IOPP/XHC0@0,3/XHC0@60000000</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
@@ -191,7 +191,7 @@
 					<key>PRT1</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>AQAAAA==</data>
 						<key>Comment</key>

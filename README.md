@@ -50,6 +50,7 @@ Settings/IO Ports/USB Configuration/XHCI Hand-off -> Enabled
 * [SmallTreeIntel82576.kext](https://github.com/khronokernel/SmallTree-I211-AT-patch/releases) (v1.0)
 * [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) (v1.1.4)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) (v1.4.0)
+* [NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases) (v1.0.3)
 
 CPU Management:
 
@@ -64,16 +65,13 @@ CPU Management:
 * HandOff, continuity
 * AirDrop
 * Time Machine
-
-* Sleep !
+* USB (2.0 and 3.0)
 
 * If the characters are displayed strangely on the screen, uncheck the option *Allow extended dynamic range* in system settings / monitor.
 
 ## What's not working yet?
 
-* Nothing
-
---> /!\ Corsair's ICUE software may prevent the machine from waking up after going into sleep mode.
+* Sleep :(
 
 ## USB Mapping
 
