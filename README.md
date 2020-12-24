@@ -1,5 +1,5 @@
 # ryzen-hackintosh (opencore)
-Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.5.9
+Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.6.4
 
 ## The Build
 
@@ -27,7 +27,7 @@ ACPI/SSDT-EC_USBX built manually following the "Getting started with ACPI" tutor
 
 ## BIOS settings
 
-/!\ Does not boot with the latest version of the motherboard bios /!\
+Now works with the latest motherboard BIOS versions (tested with versions F30, F31q).
 
 Access the bios by pressing the F2 key on computer startup.
 
