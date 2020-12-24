@@ -43,14 +43,14 @@ Settings/IO Ports/USB Configuration/XHCI Hand-off -> Enabled
 
 ## Kext
 
-* [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) (v1.5.0)
-* [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases) (v1.0.3)
-* [Lilu.kext](https://github.com/acidanthera/Lilu/releases) (v1.4.5)
-* [MacProMemoryNotificationDisabler.kext](https://github.com/IOIIIO/MacProMemoryNotificationDisabler/releases) (v1.0.0)
-* [SmallTreeIntel82576.kext](https://github.com/khronokernel/SmallTree-I211-AT-patch/releases) (v1.0)
-* [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) (v1.1.4)
-* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) (v1.4.0)
-* [NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases) (v1.0.3)
+* [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) (v1.5.5)
+* [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases) (v1.0.4)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases) (v1.5.0)
+* [MacProMemoryNotificationDisabler.kext](https://github.com/IOIIIO/MacProMemoryNotificationDisabler/releases) (v1.1)
+* [SmallTreeIntel82576.kext](https://github.com/khronokernel/SmallTree-I211-AT-patch/releases) (v1.3.0)
+* [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) (v1.1.9)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) (v1.4.5)
+* [NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases) (v1.0.4)
 
 CPU Management:
 
