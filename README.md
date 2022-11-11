@@ -1,5 +1,5 @@
 # ryzen-hackintosh (opencore)
-Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.8.6
+Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.8.6 DEBUG
 
 ## The Build
 
