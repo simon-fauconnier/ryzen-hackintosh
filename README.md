@@ -1,5 +1,5 @@
 # ryzen-hackintosh (opencore)
-Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.6.4
+Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.8.6
 
 ## The Build
 
@@ -17,7 +17,7 @@ Hackintosh powered by amd ryzen 3900x and Aorus x570 pro (ATX), Opencore 0.6.4
 
 ## Information
 
-macOS Catalina v10.15.6
+macOS Monterey v12.6.1
 
 EFI configured with the vanilla-opencore tutorial : https://dortania.github.io/OpenCore-Install-Guide/
 
@@ -27,7 +27,7 @@ ACPI/SSDT-EC_USBX built manually following the "Getting started with ACPI" tutor
 
 ## BIOS settings
 
-Now works with the latest motherboard BIOS versions (tested with versions F30, F31q).
+Now works with the latest motherboard BIOS versions (tested with versions F36d).
 
 Access the bios by pressing the F2 key on computer startup.
 
@@ -43,35 +43,35 @@ Settings/IO Ports/USB Configuration/XHCI Hand-off -> Enabled
 
 ## Kext
 
-* [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) (v1.5.5)
-* [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases) (v1.0.4)
-* [Lilu.kext](https://github.com/acidanthera/Lilu/releases) (v1.5.0)
-* [MacProMemoryNotificationDisabler.kext](https://github.com/IOIIIO/MacProMemoryNotificationDisabler/releases) (v1.1)
-* [SmallTreeIntel82576.kext](https://github.com/khronokernel/SmallTree-I211-AT-patch/releases) (v1.3.0)
-* [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) (v1.1.9)
-* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) (v1.4.5)
-* [NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases) (v1.0.4)
+* [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) (v1.7.5)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases) (v1.6.2)
+* [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) (v1.3.0)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) (v1.6.1)
+* [NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases) (v1.1.0)
+* [AppleIGB.kext](https://github.com/donatengit/AppleIGB/releases) (v5.11.4-mb)
+* [RestrictEvents.kext](https://github.com/acidanthera/RestrictEvents/releases) (v1.0.9)
 
-CPU Management:
+CPU Management (optional):
 
-* [AMDRyzenCPUPowerManagement.kext](https://github.com/trulyspinach/SMCAMDProcessor/releases) (v0.6.4)
-* [SMCAMDProcessor.kext](https://github.com/trulyspinach/SMCAMDProcessor/releases) (v0.6.4)
+* [AMDRyzenCPUPowerManagement.kext](https://github.com/trulyspinach/SMCAMDProcessor/releases)
+* [SMCAMDProcessor.kext](https://github.com/trulyspinach/SMCAMDProcessor/releases)
 
 ## What works?
 
 * Very stable
-* Audio (Audio codec : ALC1220-VB)
+* Audio (Audio codec : ALC1220-VB, type 7)
 * iMessage
 * HandOff, continuity
 * AirDrop
 * Time Machine
 * USB (2.0 and 3.0)
+* Sleep
 
 * If the characters are displayed strangely on the screen, uncheck the option *Allow extended dynamic range* in system settings / monitor.
 
 ## What's not working yet?
 
-* Sleep :(
+* Ethernet :(
 
 ## USB Mapping
 
